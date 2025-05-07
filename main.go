@@ -5,7 +5,5 @@ package main
 
 func main() {
 	// This is a simple Go program that prints "Hello, World!" to the console.
-	var age = 5
-
-	println(age)
+	println("Hello, World! I'm Ibn Abbas")
 }
