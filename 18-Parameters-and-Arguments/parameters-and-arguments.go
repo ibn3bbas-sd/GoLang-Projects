@@ -31,3 +31,7 @@ func main() {
 	fmt.Println("The power is:", end)
 	// Function call with different arguments
 }
+
+// Function with multiple parameters
+// Forbidden to use the same name for different parameters
+// Function with different types of parameters
