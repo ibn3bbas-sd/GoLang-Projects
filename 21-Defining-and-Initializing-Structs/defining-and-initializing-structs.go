@@ -59,3 +59,8 @@ func main() {
 	}
 	fmt.Println("Car 2:", car2)
 }
+
+// Defining and initializing structs in Go is straightforward. You can define a struct using the `type` keyword followed by the struct name and its fields.
+// To initialize a struct, you can use a composite literal, which allows you to specify the values for each field in the struct.
+// You can also use named fields to make your code more readable.
+// In this example, we defined two structs: `Person` and `Car`, and initialized them with different values.
