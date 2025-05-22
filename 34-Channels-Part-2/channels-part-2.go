@@ -27,3 +27,14 @@ func main() {
 	message := receiveMessages(channel)
 	fmt.Println(message)
 }
+
+/*
+Channels directions in Go
+1. Send-only channel: chan<- string
+2. Receive-only channel: <-chan string
+3. Bidirectional channel: chan string
+4. Unidirectional channel: chan<- string or <-chan string
+5. Buffered channel: make(chan string, 10)
+6. Unbuffered channel: make(chan string)
+7. Closing a channel: close(channel)
+*/
